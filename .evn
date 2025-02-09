@@ -1,0 +1,18 @@
+# Ollama URL for the backend to connect 
+# The path '/ollama' will be redirected to the specified backend URL
+#OLLAMA_BASE_URL = 'http://localhost:11434'
+
+OPENAI_API_BASE_URL = ''
+OPENAI_API_KEY = ''
+DATABASE_URL = postgresql://postgres:lanbu%402024@192.168.101.45:5432/postgres 
+USE_CUDA = true
+VECTOR_DB = milvus
+MILVUS_URI = "http://192.168.101.45:19530"
+HF_ENDPOINT = https://hf-mirror.com 
+CUDA_VISIBLE_DEVICES = 6, 7 
+# AUTOMATIC1111_BASE_URL = "http://localhost:7860" 
+
+# DO NOT TRACK
+SCARF_NO_ANALYTICS = true
+DO_NOT_TRACK = true
+ANONYMIZED_TELEMETRY = false
